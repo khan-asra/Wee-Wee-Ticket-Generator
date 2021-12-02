@@ -1,0 +1,13 @@
+<div class="bet">
+  <h1>Choose Bet Amount</h1>
+  <div>
+    <!--Interpolation to display array -->
+    <button (click)="addnumbers(0)"> ${{amtnumbers[0]}} </button>
+    <button (click)="addnumbers(1)"> ${{amtnumbers[1]}} </button>
+    <button (click)="addnumbers(5)"> ${{amtnumbers[2]}} </button>
+    <button (click)="addnumbers(10)"> ${{amtnumbers[3]}} </button>
+    <button (click)="addnumbers(20)"> ${{amtnumbers[4]}} </button>
+  </div>
+  <!--interpolation to display amount using pipe for currency -->
+  <h3>Total so far is: {{amount | currency}}</h3>
+</div>

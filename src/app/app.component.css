@@ -1,0 +1,48 @@
+header{
+    font-size: 55px;
+    font-family: cursive;
+    color:rgb(94, 103, 143);
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+}
+.betmain{
+    width:1100px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 30px;
+}
+
+
+.footer{
+    background-color: rgba(15, 11, 76, 0.22);
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    color:black;
+    border: 3px solid black;
+    font-size: 30px;
+    width:300px;
+    height:200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+h3{
+    font-size: 30px;
+    color:white;
+    background-color:#111c311a;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding:5px;
+}
+button{
+    margin: 30px;
+    height: 50px;
+    width:150px
+}
+#message{
+    font-size: 20px;
+    color: red;
+
+}

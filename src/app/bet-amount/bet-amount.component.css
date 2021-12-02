@@ -1,0 +1,33 @@
+.bet{
+    background-color:#ccc9e840;
+    width: 501px;
+    height: 330px;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: cursive
+}
+
+.bet:hover{
+    background-color:#1403dd40;
+    color:white;
+}
+button{
+    background-color: darkblue;
+    color: darkgray;
+    border-radius: 25px;
+    border:2px solid ; 
+    padding:10px;
+    text-align: center;
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+
+}
+button:hover{
+    background-color: grey;
+    color:black;
+    border:2px solid darkblue; 
+}
+button:focus{
+    background-color: red;
+}

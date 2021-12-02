@@ -1,0 +1,33 @@
+<div class=numbers>
+<h1>
+    Choose 3 Number
+</h1>
+<!--Using interpolation to dispaly the numbers in array-->
+<div class="displaynum">
+
+    <button [ngStyle]={backgroundColor:changeBackgroundColor(1)}  (click)="betnumbers(1)">{{numberselected[0]}}</button>
+    <button [ngStyle]={backgroundColor:changeBackgroundColor(2)}  (click)="betnumbers(2)">{{numberselected[1]}}</button>
+    <button [ngStyle]={backgroundColor:changeBackgroundColor(3)}  (click)="betnumbers(3)">{{numberselected[2]}}</button>
+    <button [ngStyle]={backgroundColor:changeBackgroundColor(4)}  (click)="betnumbers(4)">{{numberselected[3]}}</button>
+    <button [ngStyle]={backgroundColor:changeBackgroundColor(5)}  (click)="betnumbers(5)">{{numberselected[4]}}</button>
+    <button [ngStyle]={backgroundColor:changeBackgroundColor(6)}  (click)="betnumbers(6)">{{numberselected[5]}}</button>
+    <button [ngStyle]={backgroundColor:changeBackgroundColor(7)}  (click)="betnumbers(7)">{{numberselected[6]}}</button>
+    <button [ngStyle]={backgroundColor:changeBackgroundColor(8)}  (click)="betnumbers(8)">{{numberselected[7]}}</button>
+    <button [ngStyle]={backgroundColor:changeBackgroundColor(9)}  (click)="betnumbers(9)">{{numberselected[8]}}</button>
+    <button [ngStyle]={backgroundColor:changeBackgroundColor(10)} (click)="betnumbers(10)">{{numberselected[9]}}</button>
+</div>
+<!--Displaying the numbers selected by the user-->
+<div id="selectednum">
+<span> {{ betnum[0] }} </span>
+<span> {{ betnum[1] }} </span>
+<span> {{ betnum[2] }} </span>
+</div>
+<!--Display message for duplication/if more numbers are selected -->
+<div id="message">
+<span >{{message}}</span>
+</div>
+<!--button for clear and generating random number-->
+<div id="controlbuttons">
+<button class="ctrbutton" (click)="random()">Random</button>
+<button class="ctrbutton" (click)="clearlist()">Clear</button>
+</div>

@@ -1,0 +1,77 @@
+#controlbuttons{
+    max-width: 300px;
+    margin: 0 auto;
+    height:30px;
+}
+.ctrbutton{
+    height:30px;
+    width:100px;
+    border:2px solid black;
+    border-radius: 6px;
+    background-color: white;
+    color:black;
+}
+
+
+button:hover{
+    background-color: rgb(14, 40, 124);
+    color:rgb(238, 224, 224);
+}
+
+.numbers{
+    background-color: #1403dd40;
+    color:white;
+    width:500px ;
+    height: 330px;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: cursive;
+    
+}
+
+.displaynum{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.numbers:hover{
+    background-color:#ccc9e840;
+    color:black;
+}
+
+
+button{
+    background-color: darkblue;
+    color: darkgray;
+    border-radius: 25px;
+    border:2px solid black; 
+    padding:5px;
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    
+}
+button:hover{
+    background-color: grey;
+    color:black;
+    border:2px solid darkblue; 
+}
+#selectednum{
+    color:red;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100px;
+    margin :0 auto;
+    background-color: rgb(192, 192, 214);
+    border:1px ;
+    border-radius: 10px;
+}
+#message{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 500;
+    font-size: 1.3em;
+}

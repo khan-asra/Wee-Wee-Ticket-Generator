@@ -1,0 +1,15 @@
+<header>WEE WEE Ticket Generator</header>
+<div class= "betmain">
+    <app-bet-amount  (totalBetAmount)="collectingAmount($event)"></app-bet-amount>
+    <app-number-picker (itemSelected)="collectingBetNumbers($event)"></app-number-picker>   
+</div>
+<br>
+
+<div class="footer">
+    <span id="message">{{message}}</span>
+    <h3>Cash out</h3>
+    <button (click)="generateTicket()" [disabled] ="clicked">Generate Ticket  </button>
+</div>
+
+
+
